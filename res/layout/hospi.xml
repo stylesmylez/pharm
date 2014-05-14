@@ -1,0 +1,85 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/htableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/hospibg" >
+ 
+   	<TableRow
+      android:id="@+id/htableRow1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" >
+  	        
+ 	</TableRow>
+
+   	<LinearLayout
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content" >
+
+   	    <EditText
+   	        android:id="@+id/htbSearchTerm"
+   	        android:layout_width="wrap_content"
+   	        android:layout_height="49dp"
+   	        android:layout_weight="1"
+   	        android:background="#ffffff"
+   	        android:ems="10"
+   	        android:hint="Type search term here!"
+   	        android:textColor="#0e0078" >
+
+   	        <requestFocus />
+   	    </EditText>
+   	</LinearLayout>
+
+   	<LinearLayout
+   	    android:layout_width="match_parent"
+   	    android:layout_height="50dp"
+   	    android:background="#ffffff" >
+
+   	    <Button
+   	        android:id="@+id/hbtnLoad"
+   	        android:layout_width="156dp"
+   	        android:layout_height="66dp"
+   	        android:layout_weight="0.63"
+   	        android:background="#00c7b5"
+   	        android:text="Search"
+   	        android:textColor="#ffffff"
+   	        android:textSize="30sp"
+   	        android:textStyle="bold" />
+
+   	    <Button
+   	        android:id="@+id/hbtnHoma"
+   	        android:layout_width="156dp"
+   	        android:layout_height="66dp"
+   	        android:layout_weight="0.63"
+   	        android:background="#00c7b5"
+   	        android:text="Home"
+   	        android:textColor="#ffffff"
+   	        android:textSize="30sp"
+   	        android:textStyle="bold" />
+
+   	</LinearLayout>
+
+	<View
+		android:layout_height="1dip"
+		android:background="#CCCCCC" />
+ 
+  <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1">   
+     
+     <ListView
+         android:id="@+id/hlistView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:footerDividersEnabled="true">
+
+     </ListView>
+  	        
+ 	</LinearLayout>
+
+	<View
+		android:layout_height="1dip"
+		android:background="#CCCCCC" />
+	
+</TableLayout>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Username"
+            android:textColor="#377104"
+            android:textSize="17dip" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Password"
+            android:textColor="#377104"
+            android:textSize="17dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/tbusername"
+            android:layout_width="145dp"
+            android:layout_height="41dp"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:layout_weight="0.30"
+            android:background="#5bb20e"
+            android:editable="false"
+            android:ems="10"
+            android:hint="Type username"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#ffffff" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/tbpassword"
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:layout_weight="0.49"
+            android:background="#5bb20e"
+            android:editable="false"
+            android:ems="10"
+            android:hint="Type password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="For protection, the system will not store your username or password!"
+            android:textColor="#377104"
+            android:textSize="17dip" />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+    <Button
+        android:id="@+id/resermblogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3c026f"
+        android:text="Appointment"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mblogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3c026f"
+        android:text="Orders"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Not a member? Become a member TODAY! and order on the go!"
+            android:textColor="#377104"
+            android:textSize="17dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Username"
+            android:textColor="#377104"
+            android:textSize="17dip" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Name"
+            android:textColor="#377104"
+            android:textSize="17dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/mbusername"
+            android:layout_width="145dp"
+            android:layout_height="41dp"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:layout_weight="0.30"
+            android:background="#5bb20e"
+            android:editable="false"
+            android:ems="10"
+            android:hint="Type username"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/mbname"
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:layout_weight="0.49"
+            android:background="#5bb20e"
+            android:editable="false"
+            android:ems="10"
+            android:hint="Type your name"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Contact"
+            android:textColor="#377104"
+            android:textSize="17dip" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Address"
+            android:textColor="#377104"
+            android:textSize="17dip" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/mbcontact"
+            android:layout_width="145dp"
+            android:layout_height="41dp"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:layout_weight="0.30"
+            android:background="#5bb20e"
+            android:editable="false"
+            android:ems="10"
+            android:hint="Type your contact"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/mbaddress"
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:layout_weight="0.49"
+            android:background="#5bb20e"
+            android:editable="false"
+            android:ems="10"
+            android:hint="Type your address"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Email"
+            android:textColor="#377104"
+            android:textSize="17dip" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Password"
+            android:textColor="#377104"
+            android:textSize="17dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/mbemail"
+            android:layout_width="145dp"
+            android:layout_height="41dp"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:layout_weight="0.30"
+            android:background="#5bb20e"
+            android:editable="false"
+            android:ems="10"
+            android:hint="Type email"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/mbpassword"
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:layout_weight="0.49"
+            android:background="#5bb20e"
+            android:editable="false"
+            android:ems="10"
+            android:hint="Type password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+
+        <Button
+            android:id="@+id/mbmember"
+            android:layout_width="156dp"
+            android:layout_height="66dp"
+            android:layout_weight="0.63"
+            android:background="#3c026f"
+            android:text="Become a member"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

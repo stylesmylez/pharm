@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidhive"
+    
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="17"/>
+
+    <application
+        android:configChanges="keyboardHidden|orientation"
+        android:icon="@drawable/pharmaline"
+        android:label="PharmaLine" >
+
+        <activity
+            android:name=".MainScreenActivity"
+            android:label="PharmaLine" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- All Product Activity -->
+        <activity
+            android:name=".AllProductsActivity"
+            android:label="Medication" 
+            android:screenOrientation="portrait" android:finishOnTaskLaunch="true">
+        </activity>
+
+        <!-- Add Product Activity -->
+        <activity
+            android:name=".RegisterC"
+            android:label="Registration &amp; queries" 
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- Add Product Activity -->
+        <activity
+            android:name="OderPlaceActivity"
+            android:label="PharmaLine Order"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- Edit Product Activity -->
+        <activity
+            android:name=".ProductDetailsActivity"
+            android:label="Details" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="ScreenTemplate" android:screenOrientation="portrait"></activity>
+        <activity android:name="ChatAllActivity" android:label="PharmaLine Chat!!!"></activity>
+        <activity android:screenOrientation="portrait" android:name="SpecialistAll" android:label="PharmaLine Doctors"></activity>
+        <activity android:screenOrientation="portrait" android:name="HospitalAll" android:label="Hospitals"></activity>
+        <activity android:screenOrientation="portrait" android:name="SpecialistDetailsActivity" android:label="Details"></activity>
+        <activity android:screenOrientation="portrait" android:name="HospitalDetailsActivity" android:label="Details"></activity>
+        <activity android:screenOrientation="portrait" android:name="Ads1" android:label="Pharma Ads"></activity>
+        <activity android:screenOrientation="portrait" android:label="PharmaLine Hospitals" android:name="hospiAll"></activity>
+        <activity android:screenOrientation="portrait" android:name="MedsAll" android:label="PharmaLime Medication"></activity>
+        <activity android:name="LoginActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="OrdersViewAll" android:screenOrientation="portrait"></activity>
+        <activity android:screenOrientation="portrait" android:name="ViewActivity"></activity>
+        <activity android:screenOrientation="portrait" android:name="OderEditActivity"></activity>
+        <activity android:name="ReservationViewAll" android:screenOrientation="portrait"></activity>
+        <activity android:name="ReservationEditActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="TimePickerExample"></activity>
+        <activity android:name="ReservationPlaceActivity" android:screenOrientation="portrait"></activity>
+    </application>
+
+    <!--  Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Permission to write to external storage -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#7500d7"
+    android:orientation="vertical" >
+    
+    <!-- Name Label -->
+    
+    <!-- Input Name -->
+	
+	<!-- Price Label -->
+    
+    <!-- Input Price -->
+	
+	<!-- Description Label -->
+    
+    <!-- Input description -->
+	
+	<!-- Button Create Product -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textview6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.52"
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.31"
+            android:text="Quantity"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/edxinputname"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:background="#f4fee2"
+            android:ems="10"
+            android:hint="Type your name"
+            android:textColor="#7500d7" />
+
+        <EditText
+            android:id="@+id/edxinputQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="#f4e8ff"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#7500d7" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:text="Health Card"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/tbCompanyOrderId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08"
+            android:text="Gender"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:text="Age"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+<EditText
+            android:id="@+id/Insurancexc"
+    android:layout_width="106dp"
+    android:layout_height="36dp"
+    android:layout_weight="0.10"
+            android:background="#f4e8ff"
+            android:textColor="#7500d7" />
+
+        <EditText
+            android:id="@+id/Genderxc"
+            android:layout_width="106dp"
+            android:layout_height="36dp"
+            android:layout_weight="0.03"
+            android:background="#f4fee2"
+            android:textColor="#7500d7" />
+
+        <EditText
+            android:id="@+id/edxinputAge"
+            android:layout_width="76dp"
+            android:layout_height="36dp"
+            android:layout_weight="0.01"
+            android:background="#f4e8ff"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#7500d7" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.17"
+            android:text="Doctor/Institution"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/edxinputDoctorInstitution"
+            android:layout_width="146dp"
+            android:layout_height="103dp"
+            android:layout_weight="0.31"
+            android:background="#f4fee2"
+            android:ems="10"
+            android:hint="Type the name of the doctor or institution, if this is a recommendation"
+            android:lines="2"
+            android:textColor="#7500d7" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="7.40"
+            android:text="Drug"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edittimein"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:background="#f4fee2"
+            android:ems="10"
+            android:hint="Time"
+            android:lines="2"
+            android:textColor="#7500d7" />
+
+        <TextView
+            android:id="@+id/updateid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/editSetTimein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pickup time" />
+    </LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+	    <EditText
+	        android:id="@+id/edxinputDrug"
+	        android:layout_width="146dp"
+	        android:layout_height="142dp"
+	        android:layout_weight="0.31"
+	        android:background="#f4fee2"
+	        android:ems="10"
+	        android:hint="Type the name or name(s) of the drug(s) being ordered!"
+	        android:lines="4"
+	        android:textColor="#7500d7" />
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+		<Button
+		    android:id="@+id/edcancelorder"
+		    android:layout_width="156dp"
+		    android:layout_height="66dp"
+		    android:layout_weight="0.63"
+		    android:background="#6103b4"
+		    android:text="Cancel"
+		    android:textColor="#ffffff"
+		    android:textSize="30sp"
+		    android:textStyle="bold" />
+
+		<Button
+		    android:id="@+id/edupdate"
+		    android:layout_width="156dp"
+		    android:layout_height="66dp"
+		    android:layout_weight="0.63"
+		    android:background="#6103b4"
+		    android:text="Update"
+		    android:textColor="#ffffff"
+		    android:textSize="30sp"
+		    android:textStyle="bold" />
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:background="#ffffff" >
+
+	    <Button
+	        android:id="@+id/edohome"
+	        android:layout_width="156dp"
+	        android:layout_height="66dp"
+	        android:layout_weight="0.63"
+	        android:background="#3c026f"
+	        android:text="Home"
+	        android:textColor="#ffffff"
+	        android:textSize="30sp"
+	        android:textStyle="bold" />
+	</LinearLayout>
+	
+</LinearLayout>

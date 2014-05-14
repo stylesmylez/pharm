@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <!-- Name Label -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Hospital Name"
+        android:textColor="#019fb1"
+        android:textSize="17dip" />
+
+        <TextView
+            android:id="@+id/tbCompanyHospiOrderId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <!-- Input Name -->
+
+    <EditText
+        android:id="@+id/hosinputName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:layout_weight="0.26"
+        android:background="#00c7b5"
+        android:singleLine="true"
+        android:textColor="#ffffff" />
+
+    <!-- Price Label -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Company"
+            android:textColor="#019fb1"
+            android:textSize="17dip" />
+    </LinearLayout>
+
+    <!-- Input Price -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17" >
+
+        <EditText
+            android:id="@+id/hosinputCompany"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:background="#00c7b5"
+            android:ems="10"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <!-- Description Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Description"
+        android:textColor="#019fb1"
+        android:textSize="17dip" />
+
+    <!-- Input description -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/hosinputDesc"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:layout_weight="1.39"
+            android:background="#00c7b5"
+            android:ems="10"
+            android:gravity="top"
+            android:lines="4"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/HosAds"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="4.16"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.92"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Address"
+            android:textColor="#019fb1"
+            android:textSize="17dip" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.19"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Contact"
+            android:textColor="#019fb1"
+            android:textSize="17dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16" >
+
+        <EditText
+            android:id="@+id/hosinputAddress"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:layout_weight="0.17"
+            android:background="#00c7b5"
+            android:ems="10"
+            android:gravity="top"
+            android:lines="2"
+            android:singleLine="false"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/hosinputContact"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:layout_weight="0.12"
+            android:background="#00c7b5"
+            android:ems="10"
+            android:gravity="top"
+            android:lines="2"
+            android:singleLine="false"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+  <TextView
+      android:id="@+id/adsnameh"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="TextView"
+      android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/hosbtnOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="76dp"
+            android:layout_weight="0.82"
+            android:background="#6103b4"
+            android:text="Appointment"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/hosbtnBack"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:background="#019fb1"
+            android:text="Back"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/hosbtnHomere"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:background="#019fb1"
+            android:text="Home"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

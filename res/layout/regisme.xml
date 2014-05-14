@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecec00"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/adsnamep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0e0078" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp" >
+
+        <EditText
+            android:id="@+id/tbnumber"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#0e0078" >
+
+            <requestFocus />
+        </EditText>
+
+        <Spinner
+            android:id="@+id/SpNumber"
+            android:layout_width="141dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#6103b4"
+            android:entries="@array/register_array" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnRegnum"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="#0e0078"
+            android:text="Register"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please register to make enquiry"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0e0078" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name             "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0e0078" />
+
+        <EditText
+            android:id="@+id/tbename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:ems="10"
+            android:hint="Type your name"
+            android:inputType="textPersonName"
+            android:textColor="#0e0078" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Age"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0e0078" />
+
+        <EditText
+            android:id="@+id/tbeage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:ems="10"
+            android:hint="Optional"
+            android:inputType="number"
+            android:textColor="#0e0078" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Gender      "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0e0078" />
+
+        <Spinner
+            android:id="@+id/SpGender"
+            android:layout_width="208dp"
+            android:layout_height="51dp"
+            android:layout_weight="1"
+            android:background="#0e0078"
+            android:entries="@array/gender_array"
+            android:prompt="@string/select" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Issue"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0e0078" />
+
+        <EditText
+            android:id="@+id/tbeissue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:ems="10"
+            android:hint="Type your issue"
+            android:lines="3"
+            android:textColor="#0e0078" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact          "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0e0078" />
+
+        <EditText
+            android:id="@+id/tbecontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:ems="10"
+            android:hint="Other number or email"
+            android:inputType="text"
+            android:textColor="#0e0078" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btnesubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.27"
+            android:background="#0e0078"
+            android:text="Submit Query"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/regHome"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.46"
+            android:background="#0e0078"
+            android:text="Home"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

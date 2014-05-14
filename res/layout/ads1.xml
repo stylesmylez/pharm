@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" >
+    </ListView>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.47" >
+
+        <ImageView
+            android:id="@+id/HosAds"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.47"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bigtemp" />
+
+    </ViewFlipper>
+
+    <ImageView
+        android:id="@+id/Ads1logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/adshere" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/Ads1regHome"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_weight="0.10"
+            android:background="#0e0078"
+            android:text="Home"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/VisitLink"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_weight="0.22"
+            android:background="#0e0078"
+            android:text="Visit Link"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/AdsName"
+            android:layout_width="4dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:maxLines="1"
+            android:visibility="invisible" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+</LinearLayout>

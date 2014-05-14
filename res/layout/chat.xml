@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tburl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RE: Query"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/tbrequery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:lines="5" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Number"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/SpChatNumber"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.52" />
+
+    <TextView
+        android:id="@+id/adsnamep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Chat"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/tbmychat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:lines="5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnSendx"
+            android:layout_width="135dp"
+            android:layout_height="92dp"
+            android:layout_weight="0.23"
+            android:text="Send" />
+
+        <Button
+            android:id="@+id/btnQueryx"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.23"
+            android:text="RE:Query" />
+    </LinearLayout>
+
+</LinearLayout>

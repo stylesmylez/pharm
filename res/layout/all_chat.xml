@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+	<!-- Main ListView 
+		 Always give id value as list(@android:id/list)
+	-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/tbMeds"
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:visibility="gone" />
+
+          <Spinner
+              android:id="@+id/SpMyNum"
+              android:layout_width="match_parent"
+              android:layout_height="48dp"
+              android:entries="@array/register_array"
+              android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btncMeds"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#cd7600"
+            android:text="Load messages"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:background="#cd7600"
+            android:text="Home"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btnXsends"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#cd7600"
+            android:text="Send"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/tbResponse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:lines="1"
+                android:visibility="gone" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/tbCompanyId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="-"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/tbmychat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:lines="5"
+            android:textColor="#ae6604" />
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="#cd7600" >
+
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

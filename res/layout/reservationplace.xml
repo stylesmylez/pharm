@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#7500d7"
+    android:orientation="vertical" >
+    
+    <!-- Name Label -->
+    
+    <!-- Input Name -->
+	
+	<!-- Price Label -->
+    
+    <!-- Input Price -->
+	
+	<!-- Description Label -->
+    
+    <!-- Input description -->
+	
+	<!-- Button Create Product -->
+
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textview6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.52"
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.31"
+            android:text="Number"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/presername"
+            android:layout_width="184dp"
+            android:layout_height="match_parent"
+            android:background="#f4fee2"
+            android:ems="10"
+            android:hint="Type your name"
+            android:textColor="#7500d7" />
+
+        <EditText
+            android:id="@+id/preserNumber"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="#f4e8ff"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#7500d7" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:text="Health Card"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/reserCompanyId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08"
+            android:text="Gender"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:text="Age"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+<Spinner
+    android:id="@+id/preserHealthInsurance"
+    android:layout_width="106dp"
+    android:layout_height="41dp"
+    android:layout_weight="0.10"
+    android:entries="@array/Health_Card_array" />
+
+        <Spinner
+            android:id="@+id/preserGender"
+            android:layout_width="106dp"
+            android:layout_height="41dp"
+            android:layout_weight="0.03"
+            android:entries="@array/gender_array" />
+
+        <EditText
+            android:id="@+id/preserAge"
+            android:layout_width="76dp"
+            android:layout_height="36dp"
+            android:layout_weight="0.01"
+            android:background="#f4e8ff"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#7500d7" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.17"
+            android:text="Email"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/preseremail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f4fee2"
+            android:ems="10"
+            android:hint="Type email"
+            android:lines="2"
+            android:textColor="#7500d7" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.31"
+            android:text="Purpose Of Visit"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+	    <EditText
+	        android:id="@+id/preserPurposeOfVisit"
+	        android:layout_width="match_parent"
+	        android:layout_height="109dp"
+	        android:background="#f4fee2"
+	        android:ems="10"
+	        android:hint="Type the purpose of your visit!"
+	        android:lines="4"
+	        android:textColor="#7500d7" />
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+	    <Button
+	        android:id="@+id/ChooseDatein"
+	        android:layout_width="162dp"
+	        android:layout_height="wrap_content"
+	        android:text="Set Date In" />
+
+	    <Button
+	        android:id="@+id/ChooseTimein"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Set Time In" />
+	</LinearLayout>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <EditText
+        android:id="@+id/preserdatein"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.62"
+        android:background="#f4fee2"
+        android:ems="10"
+        android:hint="Set date"
+        android:lines="2"
+        android:textColor="#7500d7" />
+
+        <EditText
+            android:id="@+id/presertimein"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.31"
+            android:background="#f4fee2"
+            android:ems="10"
+            android:hint="Set time"
+            android:lines="2"
+            android:textColor="#7500d7" />
+
+    </LinearLayout>
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+		<Button
+		    android:id="@+id/reserplace"
+		    android:layout_width="156dp"
+		    android:layout_height="66dp"
+		    android:layout_weight="0.63"
+		    android:background="#6103b4"
+		    android:text="Make an Appointment"
+		    android:textColor="#ffffff"
+		    android:textSize="30sp"
+		    android:textStyle="bold" />
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:background="#ffffff" >
+
+	    <Button
+	        android:id="@+id/reserhomex"
+	        android:layout_width="156dp"
+	        android:layout_height="66dp"
+	        android:layout_weight="0.63"
+	        android:background="#3c026f"
+	        android:text="Home"
+	        android:textColor="#ffffff"
+	        android:textSize="30sp"
+	        android:textStyle="bold" />
+	</LinearLayout>
+	
+</LinearLayout>

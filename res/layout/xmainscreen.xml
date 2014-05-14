@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tburl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have health symptoms? Register &amp; make an enquiry NOW!"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="146dp" >
+
+        <ImageButton
+            android:id="@+id/imgregister"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/newuser" />
+
+        <ImageButton
+            android:id="@+id/imgspecialist"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/newuser" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="146dp" >
+
+        <ImageButton
+            android:id="@+id/imgmedication"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/mell" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/newuser" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="match_parent" >
+
+        <ImageButton
+            android:id="@+id/imgorder"
+            android:layout_width="160dp"
+            android:layout_height="111dp"
+            android:src="@drawable/newuser" />
+
+        <ImageButton
+            android:id="@+id/imgchat"
+            android:layout_width="160dp"
+            android:layout_height="111dp"
+            android:layout_gravity="top"
+            android:src="@drawable/newuser" />
+
+    </LinearLayout>
+
+</LinearLayout>

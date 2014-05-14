@@ -1,0 +1,63 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/htableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/medsbg" >
+ 
+   	<TableRow
+   	    android:id="@+id/htableRow1"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:background="#6103b4" >
+
+   		<TextView
+   		    android:id="@+id/updateid"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:text="       Appointments"
+   		    android:textAppearance="?android:attr/textAppearanceLarge"
+   		    android:textSize="30sp"
+   		    android:textStyle="bold" />
+  	        
+ 	</TableRow>
+
+   	<LinearLayout
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content" >
+   	</LinearLayout>
+
+	<View
+		android:layout_height="1dip"
+		android:background="#CCCCCC" />
+ 
+  <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1">   
+     
+     <ListView
+         android:id="@+id/reserlistView1"
+         android:layout_width="match_parent"
+         android:layout_height="319dp"
+         android:footerDividersEnabled="true" >
+
+     </ListView>
+  	        
+ 	</LinearLayout>
+
+	<View
+		android:layout_height="1dip"
+		android:background="#CCCCCC" />
+
+	<Button
+	    android:id="@+id/reserhome"
+	    android:layout_width="156dp"
+	    android:layout_height="52dp"
+	    android:background="#6103b4"
+	    android:text="Home"
+	    android:textColor="#ffffff"
+	    android:textSize="30sp"
+	    android:textStyle="bold" />
+	
+</TableLayout>
